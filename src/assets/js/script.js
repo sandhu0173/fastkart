@@ -283,20 +283,22 @@ $(".notifi-wishlist").on("click", function () {
 /*=====================
    14. Loader Js
    ==========================*/
-const loaderEl = document.getElementsByClassName("fullpage-loader");
-document.addEventListener("readystatechange", (event) => {
-    const readyState = "complete";
-    if (document.readyState == readyState) {
-        console.log(loaderEl);
-        loaderEl[0].classList.add("fullpage-loader--invisible");
-        // $(loaderEl).addClass("fullpage-loader--invisible");
+//    $(document).ready(function(){
+// const loaderEl = document.getElementsByClassName("fullpage-loader");
+// document.addEventListener("readystatechange", (event) => {
+//     const readyState = "complete";
+//     if (document.readyState == readyState) {
+//         console.log(loaderEl);
+//         loaderEl[0].classList.add("fullpage-loader--invisible");
+//         $(loaderEl).addClass("fullpage-loader--invisible");
 
-        // setTimeout(() => {
-        //     console.log(loaderEl[0].parentNode);
-        //     loaderEl[0].parentNode.removeChild(loaderEl);
-        // }, 1000);
-    }
-});
+//         setTimeout(() => {
+//             console.log(loaderEl[0].parentNode);
+//             loaderEl[0].parentNode.removeChild(loaderEl);
+//         }, 1000);
+//     }
+// });
+// })
 
 /*=====================
     15. header Dropdown Js

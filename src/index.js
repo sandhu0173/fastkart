@@ -1,23 +1,52 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import $ from "jquery";
+import Popper from "popper.js";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import ReactDOM from "react-dom/client";
+import jquery, { ui } from "jquery";
+
+import "./assets/css/animate.min.css";
+import "./assets/css/vendors/font-awesome.css";
+import "./assets/css/vendors/feather-icon.css";
+import "./assets/css/vendors/slick/slick.css";
+import "./assets/css/vendors/slick/slick-theme.css";
+import "./assets/js/slick/slick.js";
+import "./assets/js/slick/slick-animation.min.js";
+import "./assets/js/slick/custom_slick.js";
+import "./assets/css/bulk-style.css";
+import "./assets/css/vendors/animate.css";
+import "./assets/css/style.css";
+import "jquery-ui";
+import "./assets/js/lazysizes.min.js";
+
+import "./assets/js/auto-height.js";
+
+import "./assets/js/timer1.js";
+
+import "./assets/js/fly-cart.js";
+
+import "./assets/js/quantity-2.js";
+
+import "./assets/js/wow.min.js";
+import "./assets/js/custom-wow.js";
+
+import "./assets/js/script.js";
+
+import "./assets/js/theme-setting.js";
+import "./assets/js/slick/slick.js";
+import "./assets/js/slick/slick-animation.min.js";
+import "./assets/js/slick/custom_slick.js";
+import "./index.css";
+import "./App.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<App />} />
-        </Routes>
-    </BrowserRouter>
+    <App />
   </React.StrictMode>
 );
 

@@ -2,6 +2,7 @@
     Custom Slick js
 ==========================**/
 import $ from 'jquery';
+$(document).ready(function(){
 $('.category-slider').slick({
     arrows: true,
     infinite: true,
@@ -1216,45 +1217,7 @@ $('.category-slider-1').slick({
     ]
 });
 
-$('.slider-7_1').slick({
-    arrows: true,
-    infinite: true,
-    slidesToShow: 7,
-    slidesToScroll: 1,
-    responsive: [{
-            breakpoint: 1660,
-            settings: {
-                slidesToShow: 6,
-            }
-        },
-        {
-            breakpoint: 1501,
-            settings: {
-                slidesToShow: 5,
-            }
-        },
-        {
-            breakpoint: 1251,
-            settings: {
-                slidesToShow: 4,
-            }
-        },
-        {
-            breakpoint: 992,
-            settings: {
-                slidesToShow: 3,
-            }
-        },
-        {
-            breakpoint: 684,
-            settings: {
-                slidesToShow: 2,
-                autoplay: true,
-                autoplaySpeed: 2000,
-            }
-        },
-    ]
-});
+
 
 $('.top-selling-slider').slick({
     arrows: true,
@@ -1424,3 +1387,4 @@ $('.banner-slider').slick({
         },
     ]
 });
+})
